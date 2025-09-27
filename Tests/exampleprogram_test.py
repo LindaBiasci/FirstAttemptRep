@@ -3,8 +3,12 @@
 
 import numpy as np
 import pytest
+import sys
+import os
 
-from FirstAttemptRep.exampleprogram import conversion
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'src')))
+
+from exampleprogram import conversion
 
 def test_numbers():
     """Testing the conversion function with numbers -
