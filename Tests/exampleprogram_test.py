@@ -8,7 +8,7 @@ import os
 
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'src')))
 
-from src.exampleprogram import conversion
+from exampleprogram import conversion
 
 def test_numbers():
     """Testing the conversion function with numbers -
