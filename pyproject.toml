@@ -1,0 +1,52 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "FirstAttemptRep"
+dynamic = ["version"]
+description = "The repository I tried to create on September, 19th"
+readme = "README.md"
+license = { file = "LICENSE" }
+requires-python = ">=3.7"
+authors = [
+  { name = "Linda Biasci", email = "lindabi2002@gmail.com" }
+  ]
+
+# Important dependencies are listed here
+dependencies = [
+  "numpy", "matplotlib", 
+  ]
+
+# Optional dependencies are listed here
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "pylint",
+    "ruff", 
+  ]
+docs = [
+    "sphinx",
+  ]
+
+# Some useful fields
+[project.urls]
+Homepage = "https://github.com/LindaBiasci/FirstAttemptRep"
+Issues = "https://github.com/LindaBiasci/FirstAttemptRep/issues"
+
+# The python file from which hatchling should read the version string 
+[tool.hatch.version]
+path = "src/FirstAttemptRep/_version.py"
+
+# Optional configuration: ruff and pylint (to be possibly updated)
+[tool.ruff]
+target-version = "py37"
+line-length = 100
+src = ["src"]
+exclude = ["docs"]
+
+[tool.pylint.'BASIC']
+good-names = ["i", "j", "k", "x", "y", "z"]
+
+[tool.pylint.'FORMAT']
+max-line-length = 100
