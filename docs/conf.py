@@ -1,4 +1,6 @@
-# Configuration file for the Sphinx documentation builder
+# Configuration file for the Sphinx documentation builder.
+#
+# For the full list of built-in configuration values, see the documentation:
 # https://www.sphinx-doc.org/en/master/usage/configuration.html
 
 import importlib.metadata
@@ -7,16 +9,16 @@ from FirstAttemptRep import __version__, __name__ as __package_name__
 
 _metadata = importlib.metadata.metadata(__package_name__)
 
-# Project information
+# -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
 project = __package_name__
-author = _metadata["Author-email"]
-copyright = f"2025-%Y, {author}"
+copyright = '2025, Linda Biasci'
+author = 'Linda Biasci'
 version = __version__
 release = version
 
-# General configuration
+# -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
 extensions = [
@@ -50,16 +52,16 @@ rst_prolog = f"""
 .. |GitHub| replace:: 'GitHub <https://github.com/>'__
 """
 
-# Options for source files
-exclude_patterns = ["_build", "Thumbs.db", ".DS_Store"]
-
 # Options for templating
-templates_path = ["_templates"]
+templates_path = ['_templates']
 
-# Options for HTML output
+# Options for source files
+exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
+
+# -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
-html_theme = "sphinxawesome_theme"
+html_theme = 'alabaster'
 html_theme_options = {
     "awesome_external_links": True,
 }
