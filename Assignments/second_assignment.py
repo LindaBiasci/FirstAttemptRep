@@ -21,19 +21,19 @@ class Particle:
     @property
     def mass(self):
         return self._mass
-    
+
     @property
     def charge(self):
         return self._charge
-    
+
     @property
     def name(self):
         return self._name
-    
+
     @property
     def momentum(self):
         return self._momentum
-    
+
     @momentum.setter
     def momentum(self, momentum):
         if momentum < 0:
@@ -42,11 +42,11 @@ class Particle:
             self._momentum = 0.
         else:
             self._momentum = momentum
-    
+
     @property
     def energy(self):
         return np.sqrt(self.mass**2 + self.momentum**2)
-    
+
     #set the energy value basing on momentum; energy cannot be lower than mass!
     @energy.setter
     def energy(self, energy):
@@ -73,10 +73,10 @@ class Particle:
     @property
     def gamma(self):
         return 1/np.sqrt(1-self.beta**2)
-    
+
     @gamma.setter
     def gamma(self, gamma):
-        if (gamma<1):
+        if gamma<1:
             print("Error: gamma cannot be minor than 1")
         elif (gamma>1) and (self.beta<=0.):
             print("Error: gamma must be 1 if beta is null")
@@ -88,14 +88,14 @@ class Particle:
 
 #inheritance: classes proton and alpha derived from class Particle
 
-class proton(Particle):
+class Proton(Particle):
     MASS = 938.
     CHARGE = +1.
     NAME = "Proton"
     def __init__(self, momentum=0.):
         Particle.__init__(self, mass=self.MASS, charge=self.CHARGE, name=self.NAME, momentum=momentum)
 
-class alpha(Particle):
+class Alpha(Particle):
     MASS = 3727.
     CHARGE = +4.
     NAME = "Alpha"
@@ -116,9 +116,9 @@ if __name__ == "__main__":
     print(f"Beta has been set to {muon.beta:.2f}")
     muon.gamma = 0
     print(f"Gamma has been set to {muon.gamma:.2f}")
-    measured_proton = proton(150.)
+    measured_proton = Proton(150.)
     measured_proton.print_info()
     print(f"Hence, this particle has beta={measured_proton.beta:.2f}")
-    measured_alpha = alpha()
+    measured_alpha = Alpha()
     measured_alpha.energy = 4000.
     measured_alpha.print_info()
