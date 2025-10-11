@@ -65,7 +65,6 @@ html_theme = 'alabaster'
 html_theme_options = {
     "awesome_external_links": True,
 }
-html_logo = "_static/logo_small.png"
-html_favicon = "_static/favicon.ico"
+html_logo = "_static/something.png"
 html_permalinks_icon = "<span>#</span>"
 html_static_path = ["_static"]
