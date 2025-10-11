@@ -11,7 +11,7 @@ Welcome to FirstAttemptRep's documentation
    :width: 200px
    :align: left
 
-As suggested by the name, this is my first attempt in developing a repository.
+As suggested by the name, this is my first attempt to develop a repository.
 It mostly contains example files and tasks that I created in order to practice,
 while trying to keep up to date with the Computing Methods for Experimental Physics course.
 
