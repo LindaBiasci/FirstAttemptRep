@@ -10,8 +10,8 @@ In particular, the `static code analysis` is the process of examining source cod
 executing it to find potential errors, bugs, or simple possible improvements. It's 
 referred to as `static` because the analysis is done on the code at rest, not at runtime.
 Static code analysis basically allows to:
-+ enforcing |Python|'s coding conventions and type correctness
-+ catching logical problems and improving the overall code quality 
+* enforcing the coding conventions of |Pyhton| and its type correctness
+* catching logical problems and improving the overall code quality
 
 Some applications that might be used (they need to be installid via ``pip``):
 
@@ -37,11 +37,12 @@ Unit testing
 ============
 
 Unit testing can be implemented via ``pytest`` (it needs to be installed via ``pip``).
+
 Launch it with
 .. code-block:: shell
 
   pytest
-
+  
 Typically, each module in the ``src`` folder has its corresponding Python file in the
 ``tests`` folder that implements all the unit tests (basically, a bunch of functions
 of the ``test_something`` kind).
