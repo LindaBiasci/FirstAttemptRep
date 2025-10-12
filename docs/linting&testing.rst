@@ -10,8 +10,8 @@ In particular, the `static code analysis` is the process of examining source cod
 executing it to find potential errors, bugs, or simple possible improvements. It's 
 referred to as `static` because the analysis is done on the code at rest, not at runtime.
 Static code analysis basically allows to:
-* enforcing |Pyhton|'s coding conventions and type correctness
-* catching logical problems and improving the overall code quality
++ enforcing |Python|'s coding conventions and type correctness
++ catching logical problems and improving the overall code quality 
 
 Some applications that might be used (they need to be installid via ``pip``):
 

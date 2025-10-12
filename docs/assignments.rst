@@ -7,6 +7,6 @@ This folder contains my attempts to complete assignments from the Computing
 Methods for Experimental Physics course.
 Until now, I practiced on 
 * first assignment
-  (2025-09-26)
+  (2025-09-19)
 * second assignment
   (2025-10-07)
