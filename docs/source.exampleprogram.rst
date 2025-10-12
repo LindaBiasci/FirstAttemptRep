@@ -1,7 +1,7 @@
 .. _exampleprogram:
 
 Source: exampleprogram
-================
+======================
 
 As suggested by the name, ``exampleprogram.py`` is just an example. Actually, 
 this repository's only purpose is allowing me to practice. The program converts 

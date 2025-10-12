@@ -4,7 +4,7 @@
    contain the root `toctree` directive.
 
 Welcome to FirstAttemptRep's documentation
-===========================================
+==========================================
 
 .. image:: _static/something.png
    :alt: Project logo
