@@ -25,8 +25,6 @@ while trying to keep up to date with the Computing Methods for Experimental Phys
    source: exampleprogram
    assignments
 
-
-
 Indices and tables
 ==================
 
