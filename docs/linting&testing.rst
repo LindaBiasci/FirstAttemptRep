@@ -40,7 +40,7 @@ Unit testing
 
 Unit testing can be implemented via ``pytest`` (it needs to be installed via ``pip``).
 Launch it with
-.. code-block:: shell
+.. code-block::
 
   pytest
 
