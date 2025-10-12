@@ -40,9 +40,12 @@ Unit testing
 
 Unit testing can be implemented via ``pytest`` (it needs to be installed via ``pip``).
 Launch it with
+
 .. code-block::
 
   pytest
+
+and ``pytest`` will run all over the source code.
 
 Typically, each module in the ``src`` folder has its corresponding Python file in the
 ``tests`` folder that implements all the unit tests (basically, a bunch of functions
