@@ -25,4 +25,4 @@ Moreover, a master markup file ``index.rst`` should be generated:
 
 .. literalinclude:: index.rst
 
-For further information, look for the specific .rst file inside the docs folder.
+For further information, look for the specific ``.rst`` file inside the ``docs`` folder.
