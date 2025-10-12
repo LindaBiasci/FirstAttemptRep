@@ -38,7 +38,7 @@ Unit testing
 
 Unit testing can be implemented via ``pytest`` (it needs to be installed via ``pip``).
 Launch it with
-.. code-block::
+.. code-block:: shell
 
   pytest
 
@@ -48,4 +48,4 @@ of the ``test_something`` kind).
 
 All unit tests should start running whenever the code is changed in any way.
 Therefore, it's useful to make this procedure automatic: this is possible with 
-`continuous integration`.
+``continuous integration``.

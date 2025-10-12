@@ -40,7 +40,7 @@ At the very minimum the source code includes:
   `here <https://docs.python.org/3/tutorial/modules.html#packages>`__
 * all the Python modules that the package needs
   (in this case, it's just a very simple file).
-  For more information take a look at :ref:`source: exampleprogram`
+  For more information take a look at :ref:`source.exampleprogram`
 * ``_version.py``, needed for the versioning implementation
 
 For more information:
@@ -57,7 +57,7 @@ Unit tests
 
 The ``tests`` folder contains all the unit tests.
 Typically, each |Python| module in a package has its test.
-For more information take a look at :ref:`linting & testing`
+For more information take a look at :ref:`linting&testing`
 
 Everything else
 -----------
