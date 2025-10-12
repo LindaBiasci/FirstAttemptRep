@@ -4,7 +4,7 @@
    contain the root `toctree` directive.
 
 Welcome to FirstAttemptRep's documentation
-===========================================
+==========================================
 
 .. image:: _static/something.png
    :alt: Project logo
@@ -22,7 +22,6 @@ while trying to keep up to date with the Computing Methods for Experimental Phys
    layout
    documentation
    linting & testing
-   release
    source: exampleprogram
    assignments
 
