@@ -21,8 +21,8 @@ while trying to keep up to date with the Computing Methods for Experimental Phys
 
    layout
    documentation
-   linting & testing
-   source: exampleprogram
+   linting&testing
+   source.exampleprogram
    assignments
 
 Indices and tables

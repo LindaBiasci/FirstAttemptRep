@@ -27,6 +27,7 @@ dev = [
   ]
 docs = [
     "sphinx",
+    "sphinxawesome-theme",
   ]
 
 # Some useful fields

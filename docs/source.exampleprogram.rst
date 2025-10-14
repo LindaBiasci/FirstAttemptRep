@@ -1,4 +1,4 @@
-.. _exampleprogram:
+.. _source.exampleprogram:
 
 Source: exampleprogram
 ======================

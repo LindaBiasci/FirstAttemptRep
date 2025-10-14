@@ -3,6 +3,12 @@
 # For the full list of built-in configuration values, see the documentation:
 # https://www.sphinx-doc.org/en/master/usage/configuration.html
 
+import os
+import sys
+
+# src folder added to PYTHONPATH
+sys.path.insert(0, os.path.abspath("../src"))
+
 import importlib.metadata
 
 from FirstAttemptRep import __version__, __name__ as __package_name__
@@ -61,7 +67,7 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
-html_theme = 'alabaster'
+html_theme = "sphinxawesome_theme"
 html_theme_options = {
     "awesome_external_links": True,
 }
