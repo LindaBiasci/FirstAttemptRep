@@ -60,7 +60,7 @@ Typically, each |Python| module in a package has its test.
 For more information take a look at :ref:`linting&testing`
 
 Everything else
------------
+---------------
 
 Other files to be found in the repository:
 

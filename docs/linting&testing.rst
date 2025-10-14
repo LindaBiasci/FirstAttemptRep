@@ -1,7 +1,10 @@
 .. _linting&testing:
 
+Linting & testing
+=================
+
 Static code analysis
-====================
+--------------------
 
 Since |Python| is an interpreted coding language, linting (i.e. static code analysis) and
 testing are useful tools to catch issues and bugs in a |Python| program before running it.
@@ -17,7 +20,8 @@ Static code analysis basically allows to:
 
 Some applications that might be used (they need to be installid via ``pip``):
 
-* Pylint: launch it with 
+* Pylint: launch it with
+
 .. code-block:: shell
 
   pylint exampleprogram.py
@@ -26,7 +30,8 @@ The default behaviour of Pylint can be partially modified adding a configuration
 section in the ``pyproject.toml`` file. For more information:
 `here <https://pylint.readthedocs.io/en/latest/?badge=latest>`_
 
-* Ruff: launch it with 
+* Ruff: launch it with
+
 .. code-block:: shell
 
   ruff check
@@ -36,7 +41,7 @@ The default behaviour of Ruff can be customised adding a configuration section i
 `here <https://docs.astral.sh/ruff/configuration/>`__
 
 Unit testing
-============
+------------
 
 Unit testing can be implemented via ``pytest`` (it needs to be installed via ``pip``).
 Launch it with
