@@ -5,7 +5,7 @@ Assignments
 
 This folder contains my attempts to complete assignments from the Computing
 Methods for Experimental Physics course.
-Until now, I practiced on:
+Until now, I practised on:
 
 Python assignments:
 * ``first_assignment``

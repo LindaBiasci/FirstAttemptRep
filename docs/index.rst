@@ -12,7 +12,7 @@ Welcome to FirstAttemptRep's documentation
    :align: left
 
 As suggested by the name, this is my first attempt to develop a repository.
-It mostly contains example files and tasks that I created in order to practice,
+It mostly contains example files and tasks that I completed in order to practise,
 while trying to keep up to date with the Computing Methods for Experimental Physics course.
 
 .. toctree::
