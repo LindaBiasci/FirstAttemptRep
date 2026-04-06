@@ -23,11 +23,5 @@ while trying to keep up to date with the Computing Methods for Experimental Phys
    documentation
    linting&testing
    source.exampleprogram
-   assignments
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+   Python assignments
+   MATLAB assignments
